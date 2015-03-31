@@ -1,0 +1,69 @@
+<scene export_time="1427510904.615739" exported_by="TrevorMeiss" formatVersion="1.0.1" previous_export_time="0" >
+  <nodes >
+    <node name="MH_Basic_Male" >
+      <position z="-0.000000" y="0.000000" x="0.000000" />
+      <rotation qy="0.000000" qz="-0.000000" qw="1.000000" qx="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+      <user_data name="MhxVersion" value="16" type="int" />
+      <user_data name="MhxScale" value="0.1" type="float" />
+      <user_data name="MhVersion" value="1.0.2" type="str" />
+      <user_data name="MhBaseMesh" value="hm08" type="str" />
+      <user_data name="MhxRig" value="Game" type="str" />
+      <user_data name="MhxVersionStr" value="1 16 MhVersion:_1.0.2 MhBaseMesh:_hm08 MhxRig:_Game MHXImporter:_1.16.12" type="str" />
+      <user_data name="MhxShapekeyDrivers" value="1" type="int" />
+      <user_data name="MhAlpha8" value="1" type="int" />
+      <user_data name="McpTPoseFile" value="target_rigs/makehuman_tpose.json" type="str" />
+      <user_data name="McpTPoseLoaded" value="1" type="int" />
+      <user_data name="McpRestTPose" value="0" type="int" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="MH_Basic_Male:Body" >
+        <position z="-0.000000" y="0.000000" x="0.000000" />
+        <rotation qy="0.000000" qz="-0.000000" qw="1.000000" qx="0.000000" />
+        <scale z="1.000000" y="1.000000" x="1.000000" />
+        <user_data name="MhxOffsetX" value="-0.0" type="float" />
+        <user_data name="MhxOffsetY" value="-0.8183" type="float" />
+        <user_data name="MhxOffsetZ" value="-0.0" type="float" />
+        <user_data name="MhxMesh" value="1" type="int" />
+        <user_data name="MhHuman" value="1" type="int" />
+        <user_data name="MhxScale" value="0.1" type="float" />
+        <user_data name="MhxModel" value="caucasian:0.6050_asian:0.1975_african:0.1975_gender:1.0000_age:0.5000_weight:0.5000_muscle:0.7490_height:0.5000_bodyProportions:0.5000_" type="str" />
+        <user_data name="MhxVersionStr" value="1 16 MhVersion:_1.0.2 MhBaseMesh:_hm08 MhxRig:_Game MHXImporter:_1.16.12" type="str" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity damping_rot="0.10000000149011612" physics_type="STATIC" anisotropic_friction="False" inertia_tensor="0.4000000059604645" velocity_max="0.0" name="MH_Basic_Male:Body" lock_rot_x="False" mass_radius="1.0" lock_rot_z="False" damping_trans="0.03999999910593033" velocity_min="0.0" meshFile="MH_Basic_Male:Body.mesh" lock_rot_y="False" friction_y="1.0" friction_x="1.0" lock_trans_x="False" lock_trans_z="False" ghost="False" actor="False" mass="1.0" lock_trans_y="False" friction_z="1.0" />
+      </node>
+      <node name="MH_Basic_Male:HighPolyEyes" >
+        <position z="-0.000000" y="0.000000" x="0.000000" />
+        <rotation qy="0.000000" qz="-0.000000" qw="1.000000" qx="0.000000" />
+        <scale z="1.000000" y="1.000000" x="1.000000" />
+        <user_data name="MhxProxy" value="1" type="int" />
+        <user_data name="MhxScale" value="0.1" type="float" />
+        <user_data name="MhxProxyName" value="HighPolyEyes" type="str" />
+        <user_data name="MhxProxyUuid" value="2c12f43b-1303-432c-b7ce-d78346baf2e6" type="str" />
+        <user_data name="MhxProxyFile" value="data/eyes/high-poly/high-poly.mhclo" type="str" />
+        <user_data name="MhxProxyType" value="Eyes" type="str" />
+        <user_data name="MhxVersionStr" value="1 16 MhVersion:_1.0.2 MhBaseMesh:_hm08 MhxRig:_Game MHXImporter:_1.16.12" type="str" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity damping_rot="0.10000000149011612" physics_type="STATIC" anisotropic_friction="False" inertia_tensor="0.4000000059604645" velocity_max="0.0" name="MH_Basic_Male:HighPolyEyes" lock_rot_x="False" mass_radius="1.0" lock_rot_z="False" damping_trans="0.03999999910593033" velocity_min="0.0" meshFile="MH_Basic_Male:HighPolyEyes.mesh" lock_rot_y="False" friction_y="1.0" friction_x="1.0" lock_trans_x="False" lock_trans_z="False" ghost="False" actor="False" mass="1.0" lock_trans_y="False" friction_z="1.0" />
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/Users/TrevorMeiss/Documents/ASU/S8_S2015/CSE424/OgreExport/blender2ogre-export.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse b="0.05087608844041824" r="0.05087608844041824" g="0.05087608844041824" />
+    <colourAmbient b="0.0" r="0.0" g="0.0" />
+    <colourBackground b="0.05087608844041824" r="0.05087608844041824" g="0.05087608844041824" />
+  </environment>
+</scene>
